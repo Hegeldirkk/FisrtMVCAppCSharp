@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="card">
+    <div class="card-header">
+        <h2>Create Hotel Booking Information</h2>
+    </div>
+    <div class="card-body">
+        <form>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInputValue" placeholder="Libellé">
+                <label for="floatingInputValue">Libellé Hotel</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="datetime" class="form-control" id="floatingDateStart" placeholder="name@example.com">
+                <label for="floatingDateStart">Date de départ</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="datetime" class="form-control" id="floatingDateEnd" placeholder="name@example.com">
+                <label for="floatingDateEnd">Date Final</label>
+            </div>
+        </form>
+    </div>
+
+    <button type="button" class="btn btn-light"><a class="nav-link text-dark" asp-controller="HotelBooking" asp-action="Hotel">Create new info</a></button>
+</div>
+

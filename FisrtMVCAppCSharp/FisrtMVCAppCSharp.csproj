@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Views\HelloWorld\" />
+    <None Remove="Views\HotelBooking\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\HelloWorld\" />
+    <Folder Include="Views\HotelBooking\" />
+  </ItemGroup>
 </Project>
